@@ -1,0 +1,33 @@
+{
+  "name": "3.js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@react-three/fiber": "^8.16.0",
+    "@react-three/drei": "^9.105.0",
+    "@react-three/postprocessing": "^2.15.0",
+    "@react-spring/three": "^9.7.2",
+    "@react-spring/web": "^9.7.2",
+    "three": "^0.160.0",
+    "postprocessing": "^6.35.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^9",
+    "eslint-config-next": "14.2.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
